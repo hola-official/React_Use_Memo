@@ -27,7 +27,6 @@ function App() {
   return (
     <main className="App">
         <label>Fibonacci Sequence:</label>
-        <br />
         <input type="text"
           placeholder="position"
           value={userInput}
@@ -44,6 +43,7 @@ function App() {
      placeholder="type anything"
      onChange={e=>setRandomInput(e.target.value)}
      />
+     <p>Result: {randomInput || '...'}</p>
     </main>
   )
 }
