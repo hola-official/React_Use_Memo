@@ -32,6 +32,10 @@
   h1 {
     margin-bottom: 1rem;
   }
+
+  code {
+    color: #0059ff;
+  }
   
   button {
     min-width: 50px;
