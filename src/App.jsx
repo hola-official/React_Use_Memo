@@ -38,7 +38,12 @@ function App() {
         <br />
         <br />
         <label>Random Input:</label>
-     
+     <input type="text" 
+     required
+     value={randomInput}
+     placeholder="type anything"
+     onChange={e=>setRandomInput(e.target.value)}
+     />
     </main>
   )
 }
