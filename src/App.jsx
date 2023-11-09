@@ -26,15 +26,19 @@ function App() {
 
   return (
     <main className="App">
-      <div className="input">
+        <label>Fibonacci Sequence:</label>
+        <br />
         <input type="text"
-          placeholder="input"
+          placeholder="position"
           value={userInput}
           onChange={e => setUserInput(e.target.value)}
           required
         />
-      </div>
-      <h1>OutPut: <code> {userInput || "🙂"}</code></h1>
+        <p>Number: <code>{fibNumber || '😁'}</code></p>
+        <br />
+        <br />
+        <label>Random Input:</label>
+     
     </main>
   )
 }
